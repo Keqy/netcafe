@@ -45,7 +45,7 @@ void ClientManager::client_sit(const Event &event)
         print_error(event.time, "ClientUnknown");
         return;
     }
-    if (event.table > tables.size()) {
+    if (event.table >= tables.size()) {
         print_error(event.time, "NoSuchATable");
         return;
     }
