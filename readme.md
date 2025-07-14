@@ -84,7 +84,7 @@ Wrong data format: 8:00 20:00
 10:00
 11:04 1 client1
 11:06 2 client1 2
-11:06 13 PlaceIsBusy
+11:06 13 NoSuchATable
 11:10 3 client1
 11:10 13 ICanWaitNoLonger!
 20:00 11 client1
