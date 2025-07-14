@@ -45,6 +45,10 @@ void ClientManager::client_sit(const Event &event)
         print_error(event.time, "ClientUnknown");
         return;
     }
+    if (event.table > tables.size()) {
+        print_error(event.time, "NoSuchATable");
+        return;
+    }
     if (tables[event.table.value()].is_occupied()) {
         print_error(event.time, "PlaceIsBusy");
         return;
