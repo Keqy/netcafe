@@ -148,6 +148,11 @@ Wrong data format: 8:00 20:00
 2 25 04:55
 ```
 \
+```notexist.txt```
+```
+Couldn't open file for reading: notexist.txt
+```
+\
 --**Коды ошибок**--\
 1 - Файл не задан.\
 2 - Файл не открывается на чтение.\
